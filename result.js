@@ -115,6 +115,6 @@ for (var i = 0; i < numberOfButtons; i++) {
 document.querySelector(".close-button").addEventListener("click",function(){
     
         document.querySelector(".overlay").style.width = "0%";
-      
+        window.location.reload();
     
 })
